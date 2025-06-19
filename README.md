@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Agent Mastery - Landing Page
 
-## Getting Started
+Una landing page moderna e completa per un'accademia di formazione su agenti AI, costruita con Next.js 14, TypeScript e Tailwind CSS.
 
-First, run the development server:
+## 🚀 Funzionalità Principali
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Hero Section** con video introduttivo e CTA per iscrizione immediata
+- **Moduli del Corso** con preview dei contenuti e durata stimata
+- **Testimonial** e progetti realizzati dagli studenti precedenti
+- **Sistema di Pricing** con opzioni (Basic, Pro, Enterprise)
+- **FAQ Dinamiche** con animazioni fluide
+- **Design Responsive** ottimizzato per tutti i dispositivi
+- **Animazioni Avanzate** con Framer Motion
+- **SEO Ottimizzato** con meta tags e schema markup
+
+## 🛠️ Stack Tecnologico
+
+- **Frontend**: Next.js 14 + TypeScript + Tailwind CSS
+- **Animazioni**: Framer Motion
+- **UI Components**: Radix UI + Custom Components
+- **Styling**: Tailwind CSS con design system personalizzato
+- **Icons**: Lucide React
+- **Font**: Inter (Google Fonts)
+
+## 📁 Struttura del Progetto
+
+```
+src/
+├── app/                    # App Router (Next.js 14)
+│   ├── about/             # Pagina Chi Siamo
+│   ├── curriculum/        # Pagina Curriculum
+│   ├── pricing/           # Pagina Prezzi
+│   ├── globals.css        # Stili globali
+│   ├── layout.tsx         # Layout principale
+│   └── page.tsx           # Homepage
+├── components/
+│   ├── layout/            # Header e Footer
+│   ├── sections/          # Sezioni della landing page
+│   └── ui/                # Componenti UI riutilizzabili
+└── lib/
+    └── utils.ts           # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Sezioni della Landing Page
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Hero Section** - Introduzione con video e statistiche
+2. **Curriculum Section** - Moduli del corso con dettagli
+3. **Testimonials Section** - Storie di successo degli studenti
+4. **Pricing Section** - Piani di abbonamento con confronto
+5. **FAQ Section** - Domande frequenti con accordion
+6. **CTA Section** - Call-to-action finale con urgency
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Come Iniziare
 
-## Learn More
+1. **Clona il repository**
+```bash
+git clone <repository-url>
+cd ai-agent-mastery
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Installa le dipendenze**
+```bash
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Avvia il server di sviluppo**
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Apri il browser**
+Vai su [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+## 📱 Pagine Disponibili
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `/` - Homepage completa
+- `/curriculum` - Dettaglio curriculum del corso
+- `/pricing` - Piani e prezzi
+- `/about` - Chi siamo e team
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Caratteristiche del Design
+
+- **Design System Coerente** con colori e tipografia unificati
+- **Animazioni Fluide** per migliorare l'esperienza utente
+- **Responsive Design** che funziona su tutti i dispositivi
+- **Performance Ottimizzate** con lazy loading e ottimizzazioni Next.js
+- **Accessibilità** con componenti Radix UI accessibili
+
+## 🔧 Personalizzazione
+
+### Colori
+I colori principali sono definiti in `tailwind.config.ts` e `globals.css`:
+- Primary: Blue (221.2 83.2% 53.3%)
+- Secondary: Purple gradient
+- Accent colors per stati e feedback
+
+### Componenti
+I componenti UI sono in `src/components/ui/` e possono essere facilmente personalizzati:
+- Button con varianti multiple
+- Card per contenuti strutturati
+- Badge per etichette e stati
+
+### Animazioni
+Le animazioni sono gestite con Framer Motion e includono:
+- Fade in/out
+- Slide animations
+- Scale effects
+- Stagger animations per liste
+
+## 📈 Performance e SEO
+
+- **Next.js 14** con App Router per performance ottimali
+- **Meta tags** ottimizzati per SEO
+- **Open Graph** e Twitter Cards
+- **Structured data** per i motori di ricerca
+- **Lazy loading** per immagini e componenti
+
+## 🚀 Deploy
+
+Il progetto è ottimizzato per il deploy su Vercel:
+
+```bash
+npm run build
+```
+
+Per altri provider, seguire la documentazione di Next.js per il deployment.
+
+## 📝 Licenza
+
+Questo progetto è stato creato per scopi educativi e dimostrativi.
+
+## 🤝 Contributi
+
+Per contribuire al progetto:
+1. Fork del repository
+2. Crea un branch per la tua feature
+3. Commit delle modifiche
+4. Push del branch
+5. Apri una Pull Request
+
+## 📞 Supporto
+
+Per domande o supporto, contatta il team di sviluppo.
