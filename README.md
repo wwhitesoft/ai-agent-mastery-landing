@@ -1,6 +1,11 @@
-# AI Agent Mastery - Landing Page
+# 🚀 AI Agent Mastery - Landing Page
 
 Una landing page moderna e completa per un'accademia di formazione su agenti AI, costruita con Next.js 14, TypeScript e Tailwind CSS.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/wwhitesoft/ai-agent-mastery-landing)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://ai-agent-mastery-landing.vercel.app)
+
+![AI Agent Mastery Preview](https://via.placeholder.com/1200x600/3B82F6/FFFFFF?text=AI+Agent+Mastery)
 
 ## 🚀 Funzionalità Principali
 
